@@ -1,0 +1,28 @@
+﻿Pollutant,ID string,ID number
+13 Butadiene,13bd,23
+Ammonia,cnh3,21
+Arsenic,as,11
+Benzene,bz,22
+Benzo a pyrene,bap,41
+Cadmium,cd,12
+Carbon dioxide as carbon,co2,14
+Carbon Monoxide,co,4
+Chromium,cr,10
+Copper,cu,13
+Dioxins,dioxins,45
+Hydrogen Chloride,hcl,14
+Lead,pb,17
+Mercury,hg,15
+Methane,ch4,3
+Nickel,ni,16
+NOx,nox,6
+Nitrous oxide,n2o,5
+Non methane voc,voc,9
+PM 0.1,pm0_1,124
+PM 1,pm_1,123
+PM 10,pm10,24
+PM 2.5,pm2_5,122
+Selenium,se,18
+Sulphur Dioxide,so2,8
+Vanadium,v,19
+Zinc,zn,20

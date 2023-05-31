@@ -1,0 +1,5 @@
+usethis::use_r("LSOA_shapefile")
+usethis::use_r("refined_chunk")
+usethis::use_r("pollutant_key")
+devtools::document()
+devtools::install()

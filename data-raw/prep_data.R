@@ -5,8 +5,8 @@ library(usethis)
 library(roxygen2)
 library(here)
 #Write the shapefile to data
-LSOA_shapefile <- vect(here::here("data-raw","2011_LSOA_shapefile_20m_generalised"))
-usethis::use_data(LSOA_shapefile, overwrite = TRUE,compress = )
+LSOA_shapefile <- read_sf(here::here("data-raw","2011_LSOA_shapefile_20m_generalised"))
+usethis::use_data(LSOA_shapefile, overwrite = TRUE,compress = "xz")
 
 #Read in the rural urban classifications
 rural_urban <- read.csv(here::here("data-raw","LSOA_statistics","LSOA_urban_rural.csv")) %>%
@@ -47,4 +47,7 @@ rm(unitary_list)
 rm(unitary_chunk)
 rm(county_chunk)
 
-usethis::use_data(refined_chunk, overwrite = TRUE)
+usethis::use_data(refined_chunk, overwrite = TRUE,compress="xz")
+
+pollutant_key <- read.csv(here::here("data-raw","Pollutant_lookup.csv"))
+usethis::use_data(pollutant_key, overwrite = TRUE,compress="xz")
