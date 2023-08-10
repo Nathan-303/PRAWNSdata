@@ -1,11 +1,11 @@
 ﻿Pollutant,ID string,ID number
 13 Butadiene,13bd,23
-Ammonia,cnh3,21
+Ammonia,nh3,21
 Arsenic,as,11
 Benzene,bz,22
 Benzo a pyrene,bap,41
 Cadmium,cd,12
-Carbon dioxide as carbon,co2,14
+Carbon dioxide as carbon,co2,2
 Carbon Monoxide,co,4
 Chromium,cr,10
 Copper,cu,13
