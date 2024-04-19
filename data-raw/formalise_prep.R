@@ -4,6 +4,6 @@ usethis::use_r("pollutant_key")
 usethis::use_r("ListSets")
 devtools::document()
 devtools::install()
-
+detach("package:PRAWNSdata", unload = TRUE)
 library(devtools)
 install_github("Nathan-303/PRAWNSdata",upgrade = "never")
